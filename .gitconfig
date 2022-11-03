@@ -1,0 +1,12 @@
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+[user]
+	name = optimize-2
+	email = 55306215+optimize-2@users.noreply.github.com
+[safe]
+	directory = D:/program/extend-luogu
+	directory = D:/program/dumb-way-to-die/everest-mod-develop-tutorial
+	directory = D:/program/everest-mod-develop-tutorial

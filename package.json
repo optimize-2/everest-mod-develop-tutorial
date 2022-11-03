@@ -1,0 +1,28 @@
+{
+  "name": "everest-mod-develop-tutorial",
+  "version": "1.0.0",
+  "description": "蔚蓝模组开发教程",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/optimize-2/everest-mod-develop-tutorial.git"
+  },
+  "author": "optimize_2",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/optimize-2/everest-mod-develop-tutorial/issues"
+  },
+  "homepage": "https://github.com/optimize-2/everest-mod-develop-tutorial#readme",
+  "devDependencies": {
+    "@vuepress/client": "next",
+    "@vuepress/plugin-search": "next",
+    "@vuepress/theme-default": "next",
+    "marked": "^4.0.18",
+    "vue": "^3.2.37",
+    "vuepress": "next"
+  }
+}
