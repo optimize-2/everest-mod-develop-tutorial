@@ -48,9 +48,7 @@
     zip MyCoolMod.zip -r LICENSE.txt everest.yaml Ahorn Dialog Graphics Maps MyCoolMod.dll debug.bin
     ```
 
-7. 配置蔚蓝热重载
-
-  在 `${CelestePrefix}/Saves/modsettings-Everest.celeste` 中，你可以把 `CodeReload_WIP` 改为 true，使得可以在不重启蔚蓝的情况下重新加载模组和地图（需写好 `Unload` 方法，不然会出现各种错误）。
+7. 配置蔚蓝热重载：在 `${CelestePrefix}/Saves/modsettings-Everest.celeste` 中，你可以把 `CodeReload_WIP` 改为 true，使得可以在不重启蔚蓝的情况下重新加载模组和地图（需写好 `Unload` 方法，不然会出现各种错误）。
 
     `build.bat` (Windows)
     ```
