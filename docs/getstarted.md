@@ -48,18 +48,19 @@
     zip MyCoolMod.zip -r LICENSE.txt everest.yaml Ahorn Dialog Graphics Maps MyCoolMod.dll debug.bin
     ```
 
-7. 使用你的代码编辑器打开项目。
+7. 配置蔚蓝热重载
 
-### 蔚蓝热重载
-
-在 `${CelestePrefix}/Saves/modsettings-Everest.celeste` 中，你可以把 `CodeReload_WIP` 改为 true，使得可以在不重启蔚蓝的情况下重新加载模组和地图（需写好 `Unload` 方法，不然会出现各种错误）。
+  在 `${CelestePrefix}/Saves/modsettings-Everest.celeste` 中，你可以把 `CodeReload_WIP` 改为 true，使得可以在不重启蔚蓝的情况下重新加载模组和地图（需写好 `Unload` 方法，不然会出现各种错误）。
 
     `build.bat` (Windows)
     ```
     del MyCoolMod.zip MyCoolMod.dll
     dotnet build MyCoolMod.csproj
-    copy bin\\HeartWars.dll %CelestePrefix%\\Mods\\HeartWars\\bin /Y
+    zip MyCoolMod.zip -r LICENSE.txt everest.yaml Ahorn Dialog Graphics Maps MyCoolMod.dll debug.bin
     ```
+
+8. 使用你的代码编辑器打开项目。
+
 
 ### 补全依赖
 
